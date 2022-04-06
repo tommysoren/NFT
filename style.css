@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+}
+.container {
+    margin: 0 auto;
+    text-align: left;
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -ms-transform:scale(0.8);
+    transform:scale(0.8);
+
+}
+
+main {
+    max-width: 420px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%)
+
+}
+
+.nft-image {
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 7%;
+    margin-top: 5px;
+    margin-left: 10px;
+
+    overflow: hidden;
+}
+
+.content {
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 20px;
+}
+
+.content h2 {
+    color: white;
+    font-weight: 300;
+}
+.container p {
+    color: hsl(215, 51%, 70%);
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.container-icons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-icons-left {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    gap: 6px;
+
+}
+
+.container-icons-right {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    gap: 6px;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid hsla(227, 10%, 46%, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+.first-span{
+       color: hsl(215, 51%, 70%);
+       margin-left: 10px;
+       margin-right: 5px;
+}
+
+.second-span {
+    color:  hsl(0, 0%, 100%)
+}
+
+footer span {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+}
